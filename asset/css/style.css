@@ -1,0 +1,60 @@
+.SportsCar{
+ max-width: 150px;
+ height: auto;
+}
+.carousel-inner img {
+    height: 600px;
+}
+.car1{
+    object-fit: cover;
+}
+.carousel-item a{
+    color:white;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mt-150{
+margin-top: 150px;
+}
+.ul{
+    max-width: 700px;
+    height: auto;
+}
+.Email{
+width: 500px;
+display: block;
+margin: auto;
+}
+.navbar{
+position: relative;
+position: sticky;
+}
+.crumb{
+position: absolute;
+top: 80%;
+left: 50%;
+transform: translate(-80%,-50%);
+}
+.a1{
+    color: black;
+}
+@media only screen and (max-width:768px){
+.deal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .card{
+        margin-top: 20px;
+    }
+}
